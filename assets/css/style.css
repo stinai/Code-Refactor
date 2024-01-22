@@ -1,0 +1,146 @@
+/* Applies padding, margin and applies border box to all html elements. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Background colour applied to the body. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* --- Styles for the header section --- */
+
+/* Applied padding, set the fonts for browser to choose, applied background colour and set the text colour. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Applied font size & places header inline with text. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Applied colour to seo class */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*Applied styles to navigation bar at the top. */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Changed nav style type to none; removes dot points */
+.header nav ul {
+    list-style-type: none;
+}
+/* Applied a margin & places nav inline with text. */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Applied styles to the anchor element. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Applied font size to paragraph element. */
+p {
+    font-size: 16px;
+}
+/* Added and styled the background image under the nav bar. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Changed width, added margin and display of the content class. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* --- Styles for benefits/benefit class --- */
+
+/* Applied padding, width, height, fonts for broswer to choose from, background colour, floats class to the right
+and cleared any floats above benefits class. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Added margin and color to benefit class as a whole. */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Added margin and aligned to the center for benefit class header. */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Added display, margin and set maximum width img can go to. */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Floats image to the right, margin to the right and max height image can go to for the online class. */
+.online img {
+    max-height: 200px;
+    float: right;
+    margin-right: 25px;
+}
+
+/* --- Styling for the section component --- */
+
+/* Added margin to bottom, applied padding and height, added fonts for browser to choose, added background and text
+colour to section component. */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Added margin to bottom and changed font size to the header. */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Added max height image can go to, floated to left side of the container, added margin to rightside. */
+section img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* --- Styling for the footer section -- */
+
+/*Applied padding to footer, added fonts for browser to choose, aligned text to center and cleared any
+floats above footer. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Changed font size for footer header. */
+footer h2 {
+    font-size: 20px;
+}
